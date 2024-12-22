@@ -145,6 +145,44 @@
                     </div>
                 </div>
         
+            <a href="/posts/my-second-post/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                vs2019 调用生成的libsrtp报错：imp_clock未找到
+                            </div>
+                            <div class="post-item-summary">
+                                
+                                    <h2 id="编译zlmediakit时遇到这个问题">编译ZLMediaKit时遇到这个问题</h2>
+<p>经过多放查找，我工程配置为release版本，在调用的lib里面，编译的时候选择的MD</p>
+<p><img src="/images/1.png" alt="错误的配置" title="配置图例"></p>
+<p>在编译主项目时，就会提示LNK2001: 无法解析的外部符号 __imp__clock xxx</p>
+<p>需要把lib编译的时候，选择为MT</p>
+<p><img src="/images/2.png" alt="正确的配置" title="配置图例"></p>
+<p>在重新编译即可成功</p>
+<p>参考：</p>
+<p><a href="https://stackoverflow.com/questions/68330445/linker-can-not-find-imp-clock-and-imp-time64-when-building-a-sample-of-gtsam">visual c++ - Linker can not find __imp_clock and __imp_time64 when building a sample of GTSAM - Stack Overflow</a>
+————————————————
+原文链接：<a href="https://blog.csdn.net/a343981218/article/details/129161128">https://blog.csdn.net/a343981218/article/details/129161128</a></p>
+                                
+                            </div>
+                            <div class="post-item-meta">
+    2024-12-22
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+        
         </a>
     </div>
 

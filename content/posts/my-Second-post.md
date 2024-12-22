@@ -8,13 +8,13 @@ title = 'vs2019 调用生成的libsrtp报错：imp_clock未找到'
 
 经过多放查找，我工程配置为release版本，在调用的lib里面，编译的时候选择的MD
 
-![错误的配置](https://i-blog.csdnimg.cn/blog_migrate/544e3ac3632153f682f48da3f1bbda2c.png "配置图例")
+![错误的配置](/images/1.png "配置图例")
 
 在编译主项目时，就会提示LNK2001: 无法解析的外部符号 __imp__clock xxx
 
 需要把lib编译的时候，选择为MT
 
- ![正确的配置](https://i-blog.csdnimg.cn/blog_migrate/7953f79d78f53f99c91bf75747d10d10.png "配置图例")
+ ![正确的配置](/images/2.png "配置图例")
 
  在重新编译即可成功
 
