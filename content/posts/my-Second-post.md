@@ -2,6 +2,7 @@
 date = '2024-12-22T22:40:13+08:00'
 draft = false
 title = 'vs2019 调用生成的libsrtp报错：imp_clock未找到'
+tags = ["ZLMediaKit"]
 +++
 
 ## 编译ZLMediaKit时遇到这个问题

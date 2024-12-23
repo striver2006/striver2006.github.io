@@ -27,9 +27,9 @@ languages:
     languageName: "中文"
     weight: 1
     taxonomies:
-      category: 分类
-      tag: 标签
-      series: 系列
+      category: categories
+      tag: tags
+      series: series
     menu:
       main:
         - name: 存档
