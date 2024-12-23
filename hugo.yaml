@@ -1,7 +1,9 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://striver2006.github.io/"
-languageCode: "zh"
+languageCode: "zh-cn"
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: true
 title: "Striver2006的Blog"
 copyright: "©[striver2006](https://github.com/striver2006)"
 paginate: 10
@@ -21,7 +23,7 @@ minify:
   # minifyOutput: true
 
 languages:
-  zh:
+  zh-cn:
     languageName: "中文"
     weight: 1
     taxonomies:
