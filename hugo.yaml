@@ -5,9 +5,9 @@ languageCode: "zh"
 defaultContentLanguage: zh
 #defaultContentLanguageInSubdir: true
 title: "Striver2006的Blog"
-copyright: "©[striver2006](https://github.com/striver2006)"
+copyright: "©[Striver2006](https://github.com/striver2006)"
 paginate: 10
-theme: [PaperMod]
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
