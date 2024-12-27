@@ -117,12 +117,12 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+   disableHLJS: true
+   favicon: "images/leafun-logo-top-24x24.ico"
+   favicon16x16: "images/leafun-logo-top-16x16.png"
+   favicon32x32: "images/leafun-logo-top-32x32.png"
+   apple_touch_icon: "images/leafun-logo-top-32x32.png"
+   safari_pinned_tab: "images/leafun-logo-top-32x32.png"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
