@@ -71,7 +71,7 @@ params:
   TocOpen: true
   enableTags: true
   # comments: false
-  images: ["images/papermod-cover.png"]
+  images: ["images/leafun-logo.png"]
 
 #  profileMode:
 #    enabled: false
