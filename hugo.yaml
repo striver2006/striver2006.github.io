@@ -6,7 +6,8 @@ defaultContentLanguage: zh
 #defaultContentLanguageInSubdir: true
 title: "Striver2006的Blog"
 copyright: "©[Striver2006](https://github.com/striver2006)"
-paginate: 10
+pagination:
+  pagerSize: 10
 theme: PaperMod
 
 enableInlineShortcodes: true
