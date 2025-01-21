@@ -50,7 +50,7 @@ tags = ["AWS IoT"]
 ### 3\. 解决方案
 有两个办法解决这个问题：
 1. 重新下载证书文件，确保证书文件的内容不为空。
-2. 修改start.sh脚本，把--ca_file root-CA.crt这个参数去掉，也是可以运行成功的。
+2. 修改start.sh脚本，把---ca_file root-CA.crt这个参数去掉，也是可以运行成功的。
 ```shell
 printf "\nRunning pub/sub sample application...\n"
 python3 aws-iot-device-sdk-python-v2/samples/pubsub.py --endpoint aeq2cc8y2b5ha-ats.iot.eu-north-1.amazonaws.com --cert Door.cert.pem --key Door.private.key --client_id basicPubSub --topic sdk/test/python --count 0
