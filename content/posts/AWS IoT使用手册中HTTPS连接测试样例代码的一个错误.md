@@ -6,7 +6,7 @@ tags = ["AWS IoT"]
 +++
 
 ### 1\. 问题现象
-在AWS IoT的教程中的“HTTPS](https://docs.aws.amazon.com/iot/latest/developerguide/http.html#codeexample)”时，
+在AWS IoT的教程中的“[HTTPS](https://docs.aws.amazon.com/iot/latest/developerguide/http.html#codeexample)”时，
 当直行到运行示例代码时，出现以下错误：
 ```shell
   Traceback (most recent call last):
