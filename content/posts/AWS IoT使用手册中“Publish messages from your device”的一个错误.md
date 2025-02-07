@@ -1,7 +1,7 @@
 +++
 date = '2025-01-21T09:35:00+08:00'
 draft = false
-title = 'AWS IoT连接测试程序运行出错'
+title = 'AWS IoT教程中的“Publish messages from your device”章节错误'
 tags = ["AWS IoT"]
 +++
 
