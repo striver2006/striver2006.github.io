@@ -42,7 +42,7 @@ firewall-cmd --reload
 
 注：在银河麒麟高级服务器操作系统上安装并启动xrdp服务后，登录成功但遇到了“could not acquire name on session bus”的错误提示，导致无法正常访问桌面。
 ![错误提示](../images/从Windows通过XRDP远程访问和控制银河麒麟服务器/1.png "错误提示")
-<div style="font-size:14px;color:#C0C0C0; text-align: center;">图1 错误提示</div>
+<div style="font-size:14px;color:#C0C0C0; text-align: left;">图1 错误提示</div>
 
 【问题分析】  
 
@@ -57,7 +57,7 @@ vim  /etc/sysconfig/desktop
 ```
 在DESKTOP变量前添加一行unset DBUS_SESSION_BUS_ADDRESS内容后，保存并关闭文件。
 ![修改配置文件](../images/从Windows通过XRDP远程访问和控制银河麒麟服务器/2.png "修改配置文件")
-<div style="font-size:14px;color:#C0C0C0; text-align: center;">图2 修改配置文件</div>  
+<div style="font-size:14px;color:#C0C0C0; text-align: left;">图2 修改配置文件</div>  
 
 修改完成后重启 xrdp-sesman 服务与 xrdp 服务即可生效。  
 2、重启xrdp-sesman及xrdp服务：
