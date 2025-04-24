@@ -1,11 +1,11 @@
 +++
 date = '2025-04-24T22:40:13+08:00'
 draft = false
-title = 'Clion进行远程开发linux程序时部分include的文件Clion识别不了的问题'
+title = 'Clion进行远程开发linux程序时部分include的文件识别不了的问题'
 tags = ["CLion","远程开发"]
 +++
 
-### Clion进行远程开发linux程序时部分include的文件Clion识别不了的问题
+### Clion进行远程开发linux程序时部分include的文件识别不了的问题
 
 代码文件include远程的头文件时，提示找不到头文件的错误，经过多方查找，如果头文件在linux系统上的路径是：
 
